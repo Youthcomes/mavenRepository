@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jan 20 16:59:38 CST 2016
+http\://maven.oschina.net/content/groups/public/.lastUpdated=1453280378391
+@default-swt-repo-https\://swt-repo.googlecode.com/svn/repo/.lastUpdated=1453280377664
+default-https\://swt-repo.googlecode.com/svn/repo/.lastUpdated=1453279931513
+https\://swt-repo.googlecode.com/svn/repo/.error=Could not transfer artifact org.eclipse.swt\:org.eclipse.swt.cocoa.macosx.x86_64\:pom\:4.2.2 from/to swt-repo (https\://swt-repo.googlecode.com/svn/repo/)\: No route to host
+http\://maven.oschina.net/content/groups/public/.error=

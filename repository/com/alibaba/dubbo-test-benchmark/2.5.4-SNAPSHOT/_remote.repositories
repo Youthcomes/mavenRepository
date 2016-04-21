@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 10 16:21:24 CST 2016
+dubbo-test-benchmark-2.5.4-SNAPSHOT.jar>=
+dubbo-test-benchmark-2.5.4-SNAPSHOT.pom>=
+dubbo-test-benchmark-2.5.4-SNAPSHOT-assemble.jar>=
+dubbo-test-benchmark-2.5.4-SNAPSHOT.tar.gz>=

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 20 23:59:07 CST 2015
+@default-CN-http\://maven.oschina.net/content/groups/public/.lastUpdated=1440086347111
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact net.sf.jtidy\:jtidy\:jar\:r938 from/to CN (http\://maven.oschina.net/content/groups/public/)\: GET request of\: net/sf/jtidy/jtidy/r938/jtidy-r938.jar from CN failed

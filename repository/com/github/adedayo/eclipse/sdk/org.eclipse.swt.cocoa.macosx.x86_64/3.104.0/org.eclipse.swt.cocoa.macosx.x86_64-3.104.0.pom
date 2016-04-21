@@ -1,0 +1,78 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>com.github.adedayo.eclipse.sdk</groupId>
+        <artifactId> org.eclipse.swt.cocoa.macosx.x86_64 </artifactId>
+        <version> 3.104.0 </version>
+        <packaging>jar</packaging>
+        <name> org.eclipse.swt.cocoa.macosx.x86_64 </name>
+        <url>http://www.eclipse.org</url>
+        <description>A packaging of the eclipse sdk org.eclipse.swt.cocoa.macosx.x86_64 library.</description>
+  
+        <licenses>
+          <license>
+            <name>Eclipse Public License (EPL) v1.0</name>
+            <url>http://wiki.eclipse.org/EPL</url>
+          </license>
+        </licenses>
+  
+  
+        <properties>
+          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+          <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
+        </properties>
+  
+        <developers>
+          <developer>
+            <id>adedayo</id>
+            <name>Adedayo Adetoye</name>
+            <email>dayo.dev@gmail.com</email>
+          </developer>
+        </developers>
+  
+        <scm>
+          <connection>scm:git:git@github.com:adedayo/eclipse-sdk.git</connection>
+          <developerConnection>scm:git:git@github.com:adedayo/eclipse-sdk.git</developerConnection>
+          <url>https://github.com/adedayo/eclipse-sdk.git</url>
+        </scm>
+  
+        <distributionManagement>
+          <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          </snapshotRepository>
+          <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+          </repository>
+        </distributionManagement>
+  
+        <build>
+          <plugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-gpg-plugin</artifactId>
+              <version>1.6</version>
+              <executions>
+                <execution>
+                  <id>sign-artifacts</id>
+                  <phase>verify</phase>
+                  <goals>
+                    <goal>sign</goal>
+                  </goals>
+                </execution>
+              </executions>
+            </plugin>
+            <plugin>
+              <groupId>org.sonatype.plugins</groupId>
+              <artifactId>nexus-staging-maven-plugin</artifactId>
+              <version>1.6.5</version>
+              <extensions>true</extensions>
+              <configuration>
+                <serverId>ossrh</serverId>
+                <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                <autoReleaseAfterClose>true</autoReleaseAfterClose>
+              </configuration>
+            </plugin>
+          </plugins>
+        </build>
+      </project>

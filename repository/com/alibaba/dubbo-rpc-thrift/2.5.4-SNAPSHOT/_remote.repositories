@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 10 16:20:56 CST 2016
+dubbo-rpc-thrift-2.5.4-SNAPSHOT.jar>=
+dubbo-rpc-thrift-2.5.4-SNAPSHOT.pom>=

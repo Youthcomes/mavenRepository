@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Aug 21 01:20:51 CST 2015
+@default-CN-http\://maven.oschina.net/content/groups/public/.lastUpdated=1440091251388
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.eclipse.jetty\:jetty-webapp\:jar\:7.0.2.v20100331 from/to CN (http\://maven.oschina.net/content/groups/public/)\: GET request of\: org/eclipse/jetty/jetty-webapp/7.0.2.v20100331/jetty-webapp-7.0.2.v20100331.jar from CN failed

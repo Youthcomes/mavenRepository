@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Aug 20 23:22:27 CST 2015
+@default-CN-http\://maven.oschina.net/content/groups/public/.lastUpdated=1440084147192
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.eclipse.jetty\:jetty-security\:jar\:7.1.6.v20100715 from/to CN (http\://maven.oschina.net/content/groups/public/)\: GET request of\: org/eclipse/jetty/jetty-security/7.1.6.v20100715/jetty-security-7.1.6.v20100715.jar from CN failed
